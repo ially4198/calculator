@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    max-width: 420px;
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#display{
+    width: 420px;
+    height: 100px;
+    border: none;
+    background-color: rgb(230, 227, 227);
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+#key{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+button{
+    width: 80px;
+    height: 70px;
+    border-radius:40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    background-color: beige;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color:rgb(197, 197, 193) ;
+}
+#cal{
+    background-color: orange;
+}
